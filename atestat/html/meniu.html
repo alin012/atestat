@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meniu</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image: url('bilagolf.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        button {
+            width: 80%;
+            padding: 10px;
+            margin: 5px 0;
+            background-color: green; 
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: rgba(0, 86, 179, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <button onclick="parent.continut.location.href='istorie.html'">Istorie</button>
+    <button onclick="parent.continut.location.href='reguli.html'">Reguli si mod de joc</button>
+    <button onclick="parent.continut.location.href='teren-echipament'">Teren si echipament</button>
+    <button onclick="parent.continut.location.href='concursuri.html'">Concursuri</button>
+    <button onclick="parent.continut.location.href='ajutor.html'">Ajutor</button>
+</body>
+</html>
