@@ -3,25 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Continut</title>
+    <title>Conținut Golf</title>
     <style>
+        html, body {
+            overflow: hidden; 
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
-            background-image: url('golf-background.jpg'); 
+            background-image: url('../img/content.png'); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 100vh;
-            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
         }
-		
-		p {
-		text-size:14px;
-		}
+
+        .container {
+            padding: 20px;
+            width: 80%;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-    <h1>Ce este jocul de golf?</h1>
-	<p> Golful este un joc sportiv în aer liber, în care competitorii folosind mai multe tipuri de crose, lovesc mingile și încearcă să le introducă, pe rând, în găurile unui teren de golf, din cât mai puține lovituri.
-	Acest sport se poate practica de la vârstele cele mai mici până la cele mai înaintate. O rundă standard de golf implică parcurgerea pe jos a unei distanțe de circa 10–15 km, uneori mai mult.<p>
+    <div class="container">
+        <h1>Bine ai venit în lumea golfului!</h1>
+        <p>Golf-ul este un sport al preciziei și eleganței, unde natura și tehnica se îmbină perfect.</p>
+        <p>Descoperă terenurile spectaculoase și strategia necesară pentru a deveni un adevărat jucător.</p>
+    </div>
 </body>
 </html>
